@@ -16,16 +16,26 @@ Make sure you have Node.js and npm installed on your machine.
    ```bash
    git clone <repository-url>
    cd weather-app
-Install frontend dependencies:
+2.Install frontend dependencies:
+```bash
 npm install --force
+```
+
 Install backend dependencies (although hosted):
+```bash
 cd backend
 npm install --force
+```
 To start the frontend application:
+```bash
 cd weather-app
 npm start
+```
 Navigate to the backend directory:(Although backend is hosted):
+```bash
 cd weather-app/backend
+```
 Start the backend server:
+```bash
 node server.js
 
