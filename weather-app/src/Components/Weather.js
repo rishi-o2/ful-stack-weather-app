@@ -32,7 +32,7 @@ import { styled } from "@mui/system";
 import axios from "axios";
 
 const API_KEY = "7415e4a6be605a052ab9bd2edd8ddec2"; // Replace with your OpenWeatherMap API key
-const BACKEND_URL = "http://localhost:5000"; // Adjust this to your backend URL
+const BACKEND_URL = "https://ful-stack-weather-app-1.onrender.com"; // Adjust this to your backend URL
 
 const StyledBackground = styled("div")`
   background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
